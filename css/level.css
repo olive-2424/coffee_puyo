@@ -1,0 +1,31 @@
+.stage {
+  margin: 200px auto;
+}
+.diffculty-choise {
+  font-size: 100%;
+  font-weight: bolder;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 80px auto;
+}
+.button004 a {
+  background: #eee;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 260px;
+  padding: 10px 25px;
+  color: #313131;
+  transition: 0.3s ease-in-out;
+  font-weight: 500;
+  margin-bottom: 50px;
+  clip-path: polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%);
+}
+.button004 a:hover {
+  background: #313131;
+  color: #fff;
+}
